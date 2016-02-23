@@ -1,0 +1,214 @@
+﻿body { 
+    font-family: Cambria, Georgia, "Times New Roman"; 
+    margin: 0;
+}
+div#header div.title, div.item, div.pager a {
+    font: bold 1em "Arial Narrow", "Franklin Gothic Medium", Arial;
+}
+div#header { 
+    color: white;
+    background: linear-gradient(to bottom,dimgrey , #fff);
+}
+div#header div.title { 
+    font-size: 2em; 
+    padding: .6em;
+}
+div#footer {
+    height: 2em;
+    background: linear-gradient(to top,dimgrey , #fff);
+}
+div#logout {
+    position: absolute;
+    top: 0.8em;
+    right: 24.5em;
+}
+#logout button {
+    padding: 0;
+    border: 0;
+}
+div.adminLink {
+    position: absolute;
+    top: 3.5em;
+    right: 0.5em;
+    padding: 0.5em;
+    font-size: 1.2em;
+    color: white;
+    background: linear-gradient(to bottom, #cccccc, #F1F1F1);
+}
+div.adminLink a {
+    color: black;
+    text-decoration: none;
+}
+div#content { 
+    min-height:40em;
+    border-left: 2px solid gray; 
+    margin-left: 13em; 
+    padding: 1em; 
+}
+div.item {
+    padding: 1em 1.5em;
+    width: 14em;
+}
+div#categories { 
+    float: left; 
+    width: 12em; 
+    padding: .3em;
+}
+div.pager { 
+    text-align:right; 
+    border-top: 2px solid silver;
+    padding: .5em 0 0 0; 
+    margin-top: 1em; 
+}
+div.pager a { 
+    font-size: 1.1em; 
+    color: #666; 
+    text-decoration: none;
+    padding: 0 .4em 0 .4em; 
+}
+div.pager a:hover { background-color: Silver; }
+div.pager a.selected { 
+    background-color: #353535; 
+    color: white; 
+}
+div#categories a {
+    font: bold 1.1em "Arial Narrow","Franklin Gothic Medium",Arial;
+    display: block;
+    text-decoration: none;
+    padding: .6em;
+    color: Black;
+    border-bottom: 1px solid silver;
+}
+div#categories a.selected { 
+    background-color: #666;
+     color: White;
+}
+div#categories a:hover {
+     background-color: #CCC;
+}
+div#categories a.selected:hover {
+     background-color: #666; 
+}
+div#catalog_sorter {
+    padding: 0.4em 2em;
+    position: relative;
+}
+#catalog_sorter div {
+    padding: 0.4em 2em;
+}
+
+#sortingSelection a {
+    border-bottom: 1px dashed;
+    text-decoration: none;
+    line-height: 1;
+}
+.priceSelection input {
+    width: 3em;
+    margin: 0 0.5em;
+}
+div.itemDetails { 
+    position:relative;
+    height: 17em;
+    margin:1em;
+}
+
+#itemImage {
+    display: inline-block;
+    position:absolute;
+}
+#itemDescriptions {
+    display: inline-block;
+    width: 35em;
+    position:absolute;
+    left: 15em;
+}
+#itemDescriptions td {
+    padding-bottom: 1em;
+}
+#itemDescriptions td:first-child {
+    width: 8em;
+}
+#quantity {
+    width: 2em;
+    text-align:right;
+}
+.buttonsToBuy  {
+    width: 11em;
+    height: 3em;
+    margin-right: 2em;
+    border: 0;
+    background-color:#CCCCCC;
+}
+.selectedPageSize {
+    color: indianred;
+}
+#pageSizeSelection {
+    position: absolute;
+    right: 4em;
+}
+#pageSizeSelection a {
+    margin-left: 0.5em;
+    border-bottom: 1px dashed;
+    text-decoration: none;
+}
+.priceSelectionButton {
+    border: 0;
+    background-color:#CCCCCC;
+    width: 4em;
+    height: 2em;
+}
+.actionButtons a, button.actionButtons {
+    font: .8em Arial;
+    color: White;
+    text-decoration: none;
+    padding: .15em 1.5em .2em 1.5em;
+    background-color: #353535; 
+    border: 1px solid black;
+}
+h2 { margin-top: 0.3em }
+#cartTable { width: 40em;}
+#cartTable tfoot td { border-top: 1px dotted gray; font-weight: bold; }
+#cartTable thead th { text-align: right;}
+#cartTable thead th:first-child { text-align: center;}
+#cartTable thead th:nth-child(2) { text-align: left;}
+#cartTable tbody td { text-align: right;}
+#cartTable tbody td:first-child { text-align: center;}
+#cartTable tbody td:nth-child(2) { text-align: left;}
+#cartTable tfoot tr td { text-align: right;}
+p.actionButtons { 
+    text-align: center;
+}
+div#cartSummary { 
+    float:right; 
+    margin: .8em; 
+    color: Silver; 
+    background-color: #555; 
+    padding: .5em .5em .5em 1em; 
+}
+div#cartSummary a { 
+    text-decoration: none; 
+    padding: .4em 1em .4em 1em; 
+    line-height:2.1em;
+    margin-left: .5em; 
+    background-color: #333; 
+    color:White; 
+    border: 1px solid black;
+}
+.checkout label { 
+    display: inline-block; 
+    width: 60px; 
+    text-align: right;
+}
+.checkout div input { 
+    width: 200px; 
+    margin: 2px;
+}
+#errors { color: red;}
+
+#checkoutTable td:first-child {
+    width: 12em;
+}
+#checkoutTable input {
+    width: 15em;
+    height:1.5em;
+}

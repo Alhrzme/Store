@@ -1,0 +1,112 @@
+﻿body {
+    font-family: "Arial";
+    margin: 0;
+}
+div#header, div#title {
+    margin: 0;
+    margin-bottom: 0.3em;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+div#title {
+    font-size: 1.6em; 
+    padding: .4em 0;
+    width: 100%;
+}
+div#header {
+    font-size: 2em; 
+    padding: .6em;
+}
+div#footer {
+    width: 100%;
+    height: 2em;
+    margin-top: 1em;
+    background-color: black;
+}
+div#nav {
+    text-align: center;
+}
+
+div#nav a {
+    font: bold 1.1em "Arial Narrow","Franklin Gothic Medium",Arial; 
+    display: inline-block;
+    color: black; padding: 6px; border: solid medium black;
+    text-decoration: none;
+     text-align: center;
+}
+div#nav a:hover {
+    background: #888;
+    color: white;
+}
+.actionButton {
+    font: .8em Arial;
+    color: White;
+    text-decoration: none;
+    padding: .15em 1.5em .2em 1.5em;
+    background-color: #353535; 
+    border: 1px solid black;
+}
+.adminContent {
+    padding: 5px;
+    min-height:28.8em;
+}
+.ordersContainer, .registrationForm, .addingItem {
+    padding: 2em;
+    margin: 0 auto;
+    text-align:center;
+}
+.visitersPerDay {
+    text-align: center;
+    font-size: 1.3em;
+}
+.addingItem {
+    width: 30em;
+}
+.addingItem td:nth-child(1) {
+    width: 8em;
+    text-align: right;
+}
+.addingItem td:nth-child(2) {
+    width: 15em;
+}
+.ordersContainer {
+    width: 75em;
+    border-spacing: 0 0;
+}
+.registrationForm {
+    width: 30em;
+}
+.orderTableButton {
+    background-color: lightgrey;
+    color: black;
+    text-decoration: none;
+    min-width:5.6em;
+}
+.selectedOrder {
+    background-color: #888;
+    color: white;
+}
+
+#errors {
+     color: red;
+     text-align:left;
+}
+.firstTableStyle {
+    width: 5em;
+}
+.secondTableStyle {
+    width:  7em;
+}
+.thirdTableStyle {
+    width: 12em;
+}
+.fourthTableStyle {
+    width:16em;
+    text-align:left;
+}
+.graph {
+    width: 50em;
+    margin: 0 auto;
+    padding: 2em;
+}

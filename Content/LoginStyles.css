@@ -1,0 +1,24 @@
+﻿body {
+    font-family: "Arial";
+    margin:0;
+}
+div#header, div.title {
+    margin: 0;
+    margin-bottom: 0.3em;
+    color: white;
+    background: linear-gradient(to bottom,dimgrey , #fff);
+    text-align: center;
+    padding: .6em;
+}
+div#header {
+    font-size: 2em;
+}
+div.title {
+    font-size: 1.6em;
+}
+div#loginContainer {
+    width:26em;
+    margin: 0 auto;
+    padding-top: 2em;
+    height: 161px;
+}

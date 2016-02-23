@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Выбор</title>
+	<meta charset="utf-8" />
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <style>
+        .button {
+            width: 10em;
+            height: 3em;
+            margin-right: 2em;
+            border: 0;
+            background-color:#CCCCCC;
+        }
+    </style>
+    <script>
+        function buttonclick()
+        {
+            window.opener.document.location.href = '/cart';
+            window.close();
+        }
+    </script>
+</head>
+<body>
+    <div style="text-align:center">
+        <h3>Товар добавлен в корзину</h3> <br />
+        <input type="button" onclick="buttonclick()" class="button" value="Перейти к корзине" />
+        <input type="button" onclick="window.close()" class="button" value="Вернуться к сайту" />
+    </div>
+</body>
+</html>

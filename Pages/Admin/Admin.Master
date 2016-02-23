@@ -1,0 +1,34 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="Store.Pages.Admin.Admin" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link rel="stylesheet" href="~/Content/AdminStyles.css" />
+    <%: System.Web.Optimization.Scripts.Render("~/bundles/validation") %>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="header">
+            Админ-панель
+        </div>  
+    <div class="adminContent">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <div id="nav">
+        <a href="<%= RegistrationUrl %>">Регистрация пользователей</a>
+        <a href="<%= OrdersUrl %>">Управление заказами</a>
+        <a href="<%= TrafficUrl %>">Посещаемость</a>
+        <a href="<%= AddingItemUrl %>">Добавление нового товара</a>
+        
+    </div>
+    <div id="footer">
+
+    </div>
+</body>
+</html>
