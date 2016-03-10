@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
 using System.Web.Security;
 
 namespace Store.Pages.Admin
@@ -25,11 +20,6 @@ namespace Store.Pages.Admin
                     Success.Text = "Пользователь" + username + "зарегистрирован!";
                 }
             }
-        }
-
-        protected void CreateUserWizard1_CreatedUser(object sender, EventArgs e)
-        {
-
         }
     }
 }

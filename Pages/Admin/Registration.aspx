@@ -5,7 +5,7 @@
             Регистрация пользователя
         </div>
     <div class="registrationForm">
-        <asp:Label ID="Success" runat="server" Text="Label"></asp:Label>
+        <asp:Label ID="Success" runat="server" Text=""></asp:Label>
         <div id="errors" data-valmsg-summary="true">
             <ul>
                 <li style="display:none"></li>
@@ -53,7 +53,7 @@
                     <asp:RadioButtonList runat="server" ID="UserRole"
                         RepeatDirection="Horizontal" RepeatColumns="2">
                         <asp:ListItem Selected="true" Value="Clients">Клиент</asp:ListItem>
-                        <asp:ListItem Value="Employee">Сотрудник</asp:ListItem>
+                        <asp:ListItem Value="Employees">Сотрудник</asp:ListItem>
                     </asp:RadioButtonList>
                 </td>
             </tr>

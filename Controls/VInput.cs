@@ -15,6 +15,7 @@ namespace Store.Controls
             get { return nspace; }
             set { nspace = value; }
         }
+
         public string ModelType
         {
             get;
@@ -45,13 +46,6 @@ namespace Store.Controls
             }
             output.RenderBeginTag("input");
             output.RenderEndTag();
-        }
-
-        public override void RenderBeginTag(HtmlTextWriter writer)
-        {
-        }
-        public override void RenderEndTag(HtmlTextWriter writer)
-        {
         }
     }
 }
